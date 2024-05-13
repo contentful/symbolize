@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: plugin
+metadata:
+  name: symbolize
+  description: this plugin introduces an easy way to use symbols for values of attributes
+  annotations:
+    github.com/project-slug: contentful/symbolize 
+    contentful.com/service-tier: "4"
+spec:
+  type: library 
+  lifecycle: production  
+  owner: group:chapter-backend-ruby 
